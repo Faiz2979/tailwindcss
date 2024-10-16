@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 3</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="flex">
+    <div class="sidebar bg-gray-800 h-screen w-64 p-2 fixed">
+        <div class="m-2">
+            <h2 class="text-center text-white mb-4">Sidebar</h2>
+            <div class="space-y-4">
+                <a href="3.html" class="block text-white">Beranda</a>
+                <a href="g.html" class="block text-white">Galeri Komik</a>
+                <a href="#section5" class="block text-white" onclick="window.open('https://www.gramedia.com')">Gramedia</a>
+                <a href="ex.html" class="block text-white">Hubungi</a>
+            </div>
+        </div>
+    </div>
+    <div class="flex-1 ml-64">
+        <div class="navbar-container bg-white shadow">
+            <nav class="container mx-auto flex justify-between items-center p-4">
+                <a class="text-xl font-bold" href="#">Navbar</a>
+                <button class="block lg:hidden text-gray-500 focus:outline-none" id="navbar-toggler">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                <div class="hidden lg:flex space-x-4" id="navbarNav">
+                    <a class="text-gray-700 hover:text-gray-900" href="3.html">Home</a>
+                    <a class="text-gray-700 hover:text-gray-900" href="#">Features</a>
+                    <a class="text-gray-700 hover:text-gray-900" href="4.html">Profile</a>
+                </div>
+            </nav>
+        </div>
+        <div class="content pt-24 px-8">
+            <h1 class="text-3xl text-center font-bold mb-6">Galeri Komik</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="card bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://cdn.gramedia.com/uploads/items/9786230012150_cover_Komi_Sulit_Berkomunikasi_01_1.jpg" class="w-full h-auto object-fill" alt="...">
+                    <div class="p-4">
+                        <center>
+                            <a class="btn bg-blue-500 text-white px-4 py-2 rounded-lg w-full hover:bg-blue-600 transition" onclick="window.open('https://www.gramedia.com/products/komi-sulit-berkomunikasi-01?srsltid=AfmBOooMpILJo50fw3Db1fySJA7_tAwY0mmOW6TICgnGjlA4DgQU9jbW')">Pesan</a>
+                        </center>
+                    </div>
+                </div>
+                <div class="card bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://cdn.gramedia.com/uploads/picture_meta/2024/6/7/emwonk8pyczxih7vwjrgef.jpg" class="w-full h-auto object-fill" alt="...">
+                    <div class="p-4 w-full">
+                        <center>
+                            <a class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition" onclick="window.open('https://www.gramedia.com/products/komi-sulit-berkomunikasi-02?queryID=cfffe9f91ed7aaf67dbae398f9753454')">Pesasn</a>
+                        </center>
+                    </div>
+                </div>
+                <div class="card bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://cdn.gramedia.com/uploads/items/9786230018855_cover_Komi_Sulit_Berkomunikasi_05.jpg" class="w-full h-auto object-fill" alt="...">
+                    <div class="p-4">
+                        <center>
+                            <a class="btn bg-blue-500 text-white px-4 py-2 rounded-lg w-full text-center hover:bg-blue-600 transition" onclick="window.open('https://www.gramedia.com/products/komi-sulit-berkomunikasi-02?queryID=cfffe9f91ed7aaf67dbae398f9753454')">Pesan</a>
+                        </center>
+                    </div>
+                </div>
+                <div class="card bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://cdn.gramedia.com/uploads/picture_meta/2023/8/8/6ecjbhsvlk73fkvcxrkent.jpg" class="w-full h-auto object-fill" alt="...">
+                    <div class="p-4">
+                        <center>
+                            <a class="btn bg-blue-500 text-white px-4 py-2 rounded-lg w-3/4 hover:bg-blue-600 transition" onclick="window.open('https://www.gramedia.com/products/komi-sulit-berkomunikasi-02?queryID=cfffe9f91ed7aaf67dbae398f9753454')">Pesan</a>
+                        </center>
+                    </div>
+                </div>
+                <!-- Add more card sections as needed -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
